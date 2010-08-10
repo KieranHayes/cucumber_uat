@@ -1,0 +1,21 @@
+h1. Quick Start
+
+h2. Requirements
+
+The following setup should work:
+
+* Mac OS X 10.6
+* Rubygems version >= 1.3.7
+* bundler gem
+* Firefox
+
+It might as well run on Ubuntu.
+
+h2. Installation
+
+* sudo gem install bundler
+* sudo bundle install
+
+h2. Usage
+
+Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/"* on the command line
