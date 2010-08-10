@@ -17,4 +17,4 @@ sudo bundle install
 
 == Usage
 
-Run "cucumber CUCUMBER_HOST=http://www.spiegel.de/" on the command line
+Run "cucumber CUCUMBER_HOST={http://www.spiegel.de/}[http://www.spiegel.de/]" on the command line
