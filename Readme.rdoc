@@ -1,14 +1,14 @@
 = Quick Start 
 == Requirements
 
-I sucessfully managed to get it running on my system using the following setup
+The following setup should work
 
 * Mac OS X 10.6
 * Rubygems version >= 1.3.7
 * bundler gem
 * Firefox
 
-It should also work on Ubuntu.
+It might as well run on Ubuntu.
 
 == Installation
 sudo gem install bundler
