@@ -1,7 +1,7 @@
 = Quick Start 
 == Requirements
 
-The following setup should work
+The following setup should work:
 
 * Mac OS X 10.6
 * Rubygems version >= 1.3.7
