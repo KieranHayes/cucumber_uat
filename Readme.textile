@@ -18,4 +18,4 @@ h2. Installation
 
 h2. Usage
 
-Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/"* on the command line
+Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/"* on the command line.
