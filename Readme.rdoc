@@ -12,6 +12,7 @@ It should also work on Ubuntu.
 
 == Installation
 sudo gem install bundler
+
 sudo bundle install
 
 == Usage
