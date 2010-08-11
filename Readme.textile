@@ -9,7 +9,7 @@ The following setup should work:
 * bundler gem
 * Firefox
 
-It might as well run on Ubuntu.
+*Important:* Your Firefox should be in /Applications/Firefox.app!
 
 h2. Installation
 
