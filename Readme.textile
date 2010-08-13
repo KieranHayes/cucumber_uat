@@ -13,8 +13,9 @@ The following setup should work:
 
 h2. Installation
 
+* sudo gem update --system
 * sudo gem install cucumber
-* sudo gem install bundler
+* sudo gem install bundler --pre
 * sudo bundle install
 
 h2. Usage
