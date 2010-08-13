@@ -13,9 +13,10 @@ The following setup should work:
 
 h2. Installation
 
+* sudo gem install cucumber
 * sudo gem install bundler
 * sudo bundle install
 
 h2. Usage
 
-Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/"* on the command line.
+Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/* on the command line.
