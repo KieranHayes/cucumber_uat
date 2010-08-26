@@ -20,3 +20,8 @@ h2. Installation
 h2. Usage
 
 Run *cucumber CUCUMBER_HOST=http://www.spiegel.de/* on the command line.
+
+h2. Documentation
+
+* How to use cucumber: http://wiki.github.com/aslakhellesoy/cucumber/
+* Explanation of the capybara dsl: http://github.com/jnicklas/capybara
