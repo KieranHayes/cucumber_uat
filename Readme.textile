@@ -15,8 +15,7 @@ h2. Installation
 
 1. Open _Terminal_ @/Applications/Utilities/Terminal.app@
 2. Create a project folder:
-<pre>
-	mkdir -p /tmp/projects/workspace/
+<pre>   mkdir -p /tmp/projects/workspace/
 	cd /tmp/projects/workspace/
 </pre>
 3. Load examples from Github:
