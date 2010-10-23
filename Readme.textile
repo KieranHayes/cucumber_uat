@@ -13,39 +13,25 @@ The following setup should work:
 
 h2. Installation
 
-1. Open _Terminal_ @/Applications/Utilities/Terminal.app@
-2. Create a project folder:
-<pre>   mkdir -p /tmp/projects/workspace/
-	cd /tmp/projects/workspace/
-</pre>
-3. Load examples from Github:
-<pre>
-	git clone git://github.com/KieranHayes/cucumber_with_selenium.git "start-cucumber"
-</pre>
-4. Go into the new folder
-<pre>
-	cd start-cucumber
-</pre>
-5. Install required ruby gems:
-<pre>
-	sudo gem update --system
-	sudo gem install bundler --pre
-	sudo bundle install
-</pre>
-6. Run cucumber on the command line:
-<pre>
-	cucumber CUCUMBER_HOST=http://www.spiegel.de/
-</pre>
-
+#*Open _Terminal_ @/Applications/Utilities/Terminal.app@*
+#*Create a project folder:*
+<pre>mkdir -p /tmp/projects/workspace/
+     cd /tmp/projects/workspace/</pre>
+#*Load examples from Github:*
+<pre>git clone git://github.com/KieranHayes/cucumber_with_selenium.git "start-cucumber"</pre>
+#*Go into the new folder*
+<pre>cd start-cucumber</pre>
+#*Install required ruby gems:*
+<pre>sudo gem update --system
+     sudo gem install bundler --pre
+     sudo bundle install</pre>
+#*Run cucumber on the command line:*
+<pre>cucumber CUCUMBER_HOST=http://www.spiegel.de/</pre>
 
 h2. Usage
 
 Modify the examples within @features/@ folder
-<pre>
-	mate .
-</pre>
-
-
+<pre>mate .</pre>
 
 h2. Documentation
 
