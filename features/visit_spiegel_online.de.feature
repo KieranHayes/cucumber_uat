@@ -1,13 +1,13 @@
 # language: de
 
-Funktionalität: Eine Suche auf Spiegel online tätigen
-    
-  Szenario: Nach einem bestimmten Begriff suchen
-    Gegeben sei ich bin auf home
-    Wenn ich das Feld "spSearch" mit "Roland Koch" ausfülle
-    Und ich das Bild "spSearchGo" anklicke
-    Dann sollte ich den Text "Ihre Suche: Roland Koch" sehen
-
+#Funktionalität: Eine Suche auf Spiegel online tätigen
+#    
+#  Szenario: Nach einem bestimmten Begriff suchen
+#    Gegeben sei ich bin auf home
+#    Wenn ich das Feld "spSearch" mit "Politiker" ausfülle
+#    Und ich das Bild "spSearchGo" anklicke
+#    Dann sollte ich den Text "Ihre Suche: Politiker" sehen
+#
 ##
 # Standard steps die bereits implementiert sind:
 
