@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem "activerecord"
 gem "rspec"
 gem "cucumber"
 gem "Selenium"
