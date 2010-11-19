@@ -3,8 +3,8 @@ module NavigationHelpers
       case page_name
       when /home/
         ENV['CUCUMBER_HOST']
-      when /accueil/
-        '/accueil'
+      when /login/
+        '/identification'
       when /login/
         '/identification'
       else
