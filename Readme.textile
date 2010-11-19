@@ -30,7 +30,7 @@ h2. Installation
 5. Install required ruby gems:
 <pre>
 	sudo gem update --system
-	sudo gem install bundler --pre
+	sudo gem install bundler
 	sudo bundle install
 </pre>
 6. Run cucumber on the command line:
