@@ -35,5 +35,5 @@ Modify the examples within @features/@ folder
 
 h2. Documentation
 
-* "How to use cucumber":http://wiki.github.com/aslakhellesoy/cucumber/]
-* "Explanation of the capybara dsl":http://github.com/jnicklas/capybara]
+* "How to use cucumber":http://wiki.github.com/aslakhellesoy/cucumber/
+* "Explanation of the capybara dsl":http://github.com/jnicklas/capybara
