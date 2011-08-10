@@ -4,9 +4,9 @@ Funktionalität: Eine Suche auf Spiegel online tätigen
     
   Szenario: Nach einem bestimmten Begriff suchen
     Gegeben sei ich bin auf home
-    Wenn ich das Feld "spSearch" mit "Roland Koch" ausfülle
-    Und ich das Bild "spSearchGo" anklicke
-    Dann sollte ich den Text "Ihre Suche: Roland Koch" sehen
+    Wenn ich das Feld "suchbegriff" mit "Rudolf Augstein" ausfülle
+    Und ich das Element "suchknopf" anklicke
+    Dann sollte ich den Text "Ihre Suche: Rudolf Augstein" sehen
 
 ##
 # Standard steps die bereits implementiert sind:

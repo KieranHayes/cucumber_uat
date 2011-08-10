@@ -1,7 +1,7 @@
-When /^I click on image "([^"]*)"$/ do |arg1|
-  find("##{arg1}").click
+When /^I click on element "([^"]*)"$/ do |element|
+  find(selector_for(element)).click
 end
 
-Wenn /^ich das Bild "([^"]*)" anklicke$/ do |arg1|
-  find("##{arg1}").click
+Wenn /^ich das Element "([^"]*)" anklicke$/ do |element|
+  find(selector_for(element)).click
 end

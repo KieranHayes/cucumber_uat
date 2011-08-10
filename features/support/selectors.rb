@@ -10,7 +10,13 @@ module HtmlSelectorsHelpers
 
     when /the page/
       "html > body"
-
+    
+    when /searchbutton/
+      "img#spSearchGo"
+    
+    when /suchknopf/
+      "img#spSearchGo"
+    
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
