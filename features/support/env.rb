@@ -32,5 +32,5 @@ require 'test/unit/assertions'
 World(Test::Unit::Assertions)
 
 at_exit do
-  system "open report.html"
+  system "open ./reports/report.html"
 end
