@@ -1,5 +1,6 @@
 # config/cucumber.yml
 ##YAML Template
 ---
+default: -r ./features/steps -r ./features/support -r ./features/environments/akephalos/env.rb CUCUMBER_HOST=http://www.spiegel.de/
 html_report: --format progress --format html --out=reports/report.html
-spiegel: CUCUMBER_HOST=http://www.spiegel.de/
+selenium: -r ./features/steps -r ./features/support -r ./features/environments/selenium/env.rb CUCUMBER_HOST=http://www.spiegel.de/

@@ -9,16 +9,12 @@ require 'spec/expectations'
 require 'capybara/cucumber'
 require 'capybara/session'
 
-#Selenium
-require "selenium-webdriver"
-
-#Change engine to chrome in order to test a webkit browser
-#Selenium::WebDriver.for :chrome
+Capybara.default_selector = :css
 
 # Akephalos & envjs
 require 'akephalos'
 require 'capybara/envjs'
-Capybara.javascript_driver = :phantomjs
+
 Capybara.default_driver = :akephalos
 Capybara.javascript_driver = :envjs
 Capybara.register_driver :akephalos do |app|
