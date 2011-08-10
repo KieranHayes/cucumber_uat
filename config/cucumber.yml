@@ -1,0 +1,5 @@
+# config/cucumber.yml
+##YAML Template
+---
+html_report: --format progress --format html --out=report.html
+spiegel: CUCUMBER_HOST=http://www.spiegel.de/

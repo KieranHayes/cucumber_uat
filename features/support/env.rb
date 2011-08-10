@@ -15,9 +15,22 @@ require "selenium-webdriver"
 #Change engine to chrome in order to test a webkit browser
 #Selenium::WebDriver.for :chrome
 
-Capybara.default_selector = :css
-Capybara.default_driver = :selenium
+# Akephalos & envjs
+require 'akephalos'
+require 'capybara/envjs'
+Capybara.javascript_driver = :phantomjs
+Capybara.default_driver = :akephalos
+Capybara.javascript_driver = :envjs
+Capybara.register_driver :akephalos do |app|
+  # available options:
+  #   :ie6, :ie7, :ie8, :firefox_3, :firefox_3_6
+  Capybara::Driver::Akephalos.new(app, :browser => :firefox_3_6)
+end
 
 require 'test/unit/assertions'
 
 World(Test::Unit::Assertions)
+
+at_exit do
+  system "open report.html"
+end
