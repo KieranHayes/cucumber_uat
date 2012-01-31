@@ -3,7 +3,7 @@ unless ENV['CUCUMBER_HOST']
 end
 
 # RSpec
-require 'spec/expectations'
+require 'rspec/expectations'
 
 # Caybara
 require 'capybara/cucumber'

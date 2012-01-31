@@ -1,3 +1,4 @@
+@spiegel
 Feature: Perform a search on SPIEGEL ONLINE
 
   Scenario: Visit Website
