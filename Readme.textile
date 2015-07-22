@@ -18,13 +18,11 @@ h2. Installation
 <pre>mkdir -p /tmp/projects/workspace/
 cd /tmp/projects/workspace/</pre>
 # *Load examples from Github:*
-<pre>git clone git://github.com/KieranHayes/cucumber_with_selenium.git "start-cucumber"</pre>
+<pre>git clone https://github.com/KieranHayes/cucumber_uat.git "start-cucumber"</pre>
 # *Go into the new folder*
 <pre>cd start-cucumber</pre>
-# *Install required ruby gems:*
-<pre>sudo gem update --system
-sudo gem install bundler --pre
-sudo bundle install</pre>
+
+bundle install</pre>
 # *Run cucumber on the command line:*
 <pre>cucumber CUCUMBER_HOST=http://www.spiegel.de/</pre>
 
