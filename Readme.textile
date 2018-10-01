@@ -13,21 +13,6 @@ The following setup should work:
 
 h2. Installation
 
-h1. Quick Start
-
-h2. Requirements
-
-The following setup should work:
-
-* Mac OS X 10.6
-* Rubygems version >= 1.3.7
-* bundler gem
-* Firefox >=3.5
-
-*Important:* Your Firefox must be installed in @/Applications/Firefox.app@!
-
-h2. Installation
-
 # *Open _Terminal_ @/Applications/Utilities/Terminal.app@*
 # *Create a project folder:*
 <pre>mkdir -p /tmp/projects/workspace/
